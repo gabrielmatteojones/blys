@@ -1,10 +1,30 @@
 ---
 layout: post
-title: Nuovo Post
-categories: [categoria2]
-tags: [tag1, tag2]
-lang: it
-ref: new
+title: "Esempio di post con layout USWDS"
+date: 2025-05-22
+tags: [uswds, jekyll, esempio]
+main:
+  class: usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose
 ---
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Benvenuto in questo post di esempio!
+
+Questo post usa il layout `post.html` personalizzato per integrarsi con il design system **USWDS** (U.S. Web Design System).
+
+## Sezioni
+
+Puoi scrivere contenuti in Markdown normalmente, come:
+
+- Elenchi
+- Titoli
+- Codice
+- Tabelle
+
+### Esempio di codice
+
+```html
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <p class="usa-alert__text">Questo è un messaggio informativo.</p>
+  </div>
+</div>
