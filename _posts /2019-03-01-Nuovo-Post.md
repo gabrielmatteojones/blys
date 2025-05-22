@@ -7,10 +7,9 @@ tags: [uswds, jekyll, esempio]
 main:
   class: usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose
 ---
-
 Benvenuto in questo post di esempio!
 
-Questo post usa il layout `post.html` personalizzato per integrarsi con il design system **USWDS** (U.S. Web Design System).
+Questo post usa il layout post.html personalizzato per integrarsi con il design system USWDS (U.S. Web Design System).
 
 ## Sezioni
 
