@@ -56,3 +56,6 @@ autoprefixer:
     - last 2 versions
     - IE 11
     - not dead
+
+
+permalink: /:slug/
