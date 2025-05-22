@@ -1,7 +1,17 @@
 ---
-layout: page
-main:
-  class: usa-grid usa-section usa-content usa-layout-docs
+layout: default
 ---
 
-{{ content }}
+<article class="container my-4">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Scritto il {{ page.date | date: "%d/%m/%Y" }}
+  </div>
+
+  {% include disqus.html %}
+</article>
