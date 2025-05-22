@@ -2,6 +2,7 @@
 layout: post
 title: "Esempio di post con layout USWDS"
 date: 2025-05-22
+slug: post-di-esempio
 tags: [uswds, jekyll, esempio]
 main:
   class: usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose
