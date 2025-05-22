@@ -2,5 +2,34 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-    {{ content }}
+<div class="usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap flex-align-start">
+
+      <main class="{{ page.main.class | default: 'usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose' }}" id="main-content">
+
+        {% if page.title %}
+          <h1>{{ page.title }}</h1>
+        {% endif %}
+
+        {% if page.date %}
+          <p class="text-base text-gray-600">
+            Pubblicato il {{ page.date | date: "%-d %B %Y" }}
+          </p>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.tags %}
+          <p><strong>Tag:</strong>
+            {% for tag in page.tags %}
+              <span class="usa-tag">{{ tag }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
+
+      </main>
+
+    </div>
+  </div>
+</div>
